@@ -1,0 +1,11 @@
+- Prettier - code formatter
+- html snippets
+- live server
+- live server preview
+- material icon theme
+- highlight matching tag
+- auto rename tag
+- bracket pair colorizer
+- html to css autocompletion
+- scss intellisence
+- htmltagwrap
