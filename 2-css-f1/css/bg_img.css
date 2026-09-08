@@ -1,0 +1,5 @@
+.background-img {
+  background: url("https://picsum.photos/1700/900") no-repeat center / cover;
+  width: 100%;
+  height: 1000px;
+}
