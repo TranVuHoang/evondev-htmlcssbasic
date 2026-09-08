@@ -1,0 +1,10 @@
+/*
+Mã màu:
+name: red, green, blue
+rgb: rgb(0,0,0), rgb(255,255,255),...
+rgba:
+hexa: #fff, #111, #faff4d,...
+*/
+p {
+  color: rgb(255, 0, 0);
+}
