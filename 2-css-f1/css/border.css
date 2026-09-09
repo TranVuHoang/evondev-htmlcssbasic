@@ -1,0 +1,7 @@
+.em {
+  border: 5px solid #19cf59;
+  border-radius: 50%;
+  outline: 50px solid rgb(216, 85, 85);
+  padding: 20px;
+  margin: 100px auto;
+}
