@@ -1,0 +1,27 @@
+html {
+  font-size: 62.5%;
+}
+
+.margin {
+  width: 14rem;
+  height: 14rem;
+  background-color: red;
+
+  /*
+  TH1: 1 giá trị:
+  => top = right = bottom = left
+
+  TH2 2 giá trị
+  => trên dưới, trái phải
+
+  TH3 3 giá trị
+  => trên, trái-phải, dưới
+
+  TH4: 4 giá trị
+  => trên, phải, dưới, trái
+  */
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-top: 20px;
+  /* margin collaps: mb vs mt cái nào lớn hơn thì sẽ lấy */
+}
