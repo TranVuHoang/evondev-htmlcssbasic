@@ -1,8 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 html {
   font-size: 62.5%;
 }
 
-.margin {
+.box-1 {
+  font-size: 1.5rem;
   width: 14rem;
   height: 14rem;
   background-color: red;
@@ -24,4 +30,15 @@ html {
   margin-left: 20px;
   margin-top: 20px;
   /* margin collaps: mb vs mt cái nào lớn hơn thì sẽ lấy */
+
+  padding: 10px;
+  overflow: hidden;
+}
+
+.box-2 {
+  width: 14rem;
+  height: 14rem;
+  background-color: rgb(0, 255, 76);
+  margin-left: 50px;
+  margin-top: -80px;
 }
