@@ -10,6 +10,18 @@ html {
 
 .desc {
   font-family: "Poppins", sans-serif;
+  max-width: 400px;
   font-size: 1.6rem;
   font-weight: 300;
+  line-height: 1.5;
+  text-align: justify;
+  letter-spacing: 1;
+
+  /* overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3; */
+
+  word-break: break-word;
 }
