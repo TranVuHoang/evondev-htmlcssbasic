@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.image-wrap {
+  text-align: center;
+}
+
+.image {
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
