@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.boxed {
+  width: 20rem;
+  height: 20rem;
+  background: red;
+  background-image: linear-gradient(to right bottom, red, blue);
+}
+
+.title {
+  font-weight: bold;
+  font-size: 3rem;
+  background: linear-gradient(to right bottom, blue, orange);
+  display: inline-block;
+  margin-top: 2rem;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
