@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.shadow {
+  width: 20rem;
+  height: 20rem;
+  background: #000;
+  margin: 5rem auto;
+  box-shadow: 0 0 10px 0 #000;
+}
+
+.text-shadow {
+  font-size: 4rem;
+  font-weight: bold;
+  text-shadow: 0 0 10px #000;
+}
