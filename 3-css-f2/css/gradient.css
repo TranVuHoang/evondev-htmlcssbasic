@@ -13,6 +13,12 @@ html {
   height: 20rem;
   background: red;
   background-image: linear-gradient(to right bottom, red, blue);
+  cursor: pointer;
+
+  /* opacity vẫn chiếm diện tích và có thể nhấn vô được */
+  /* opacity: 0; */
+  /* visibility: hidden; */
+  display: none;
 }
 
 .title {
