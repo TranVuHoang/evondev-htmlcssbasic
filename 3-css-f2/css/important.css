@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* #title {
+  color: red;
+} */
+h2.title {
+  color: blue;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: orange;
+}
+
+h2.title {
+  color: blue;
+}
+/*
+(x, y, z) <=> (tags, class or attribute, id)
+(0,0,1)
+(0,1,0)
+(1,0,0)
+*/
+/* tags < class < id < inline style < !important*/
