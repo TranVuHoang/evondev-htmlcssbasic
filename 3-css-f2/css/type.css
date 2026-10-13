@@ -1,0 +1,15 @@
+li:first-child {
+  color: red;
+}
+
+li:first-of-type {
+  color: blue;
+}
+
+li:last-of-type {
+  color: red;
+}
+
+li:nth-last-of-type(2) {
+  color: #d922e6;
+}

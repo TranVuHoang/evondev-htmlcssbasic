@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+ul {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+/*--- selector child ---*/
+
+/* phần tử đầu tiên */
+li:first-child {
+  color: red;
+}
+
+/* phần tử cuối cùng */
+li:last-child {
+  color: blue;
+}
+
+/* phần tử thứ 2 */
+li:nth-child(2) {
+  color: green;
+}
+
+/* phần tử thứ 4 */
+li:nth-child(4) {
+  color: purple;
+}
+
+/* phần tử kế cuối */
+li:nth-last-child(2) {
+  color: yellowgreen;
+}
+
+/* chọn hết phần tử trừ cái đầu tiên */
