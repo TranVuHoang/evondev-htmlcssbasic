@@ -13,3 +13,11 @@ li:last-of-type {
 li:nth-last-of-type(2) {
   color: #d922e6;
 }
+
+h3 + .title {
+  color: red;
+}
+
+h3 ~ .title2 {
+  color: blue;
+}
